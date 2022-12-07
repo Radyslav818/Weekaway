@@ -11,8 +11,9 @@ import {
 export default function NavBar() {
   const [nav, setNav] = useState(false);
 
+  const changeStateHandler = (prev) => !prev;
   const handleNav = () => {
-    setNav(!nav);
+    setNav(changeStateHandler);
   };
   return (
     <div className="w-full min-h-[50px] flex justify-between items-center absolute z-10 text-white bg-gray-700/80">
