@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { BsChatSquareDots } from "react-icons/bs";
+import React, { useState } from "react";
+// import { BsChatSquareDots } from "react-icons/bs";
 import {
   FaFacebookF,
   FaTwitter,
